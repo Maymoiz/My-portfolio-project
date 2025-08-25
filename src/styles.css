@@ -2,8 +2,8 @@ h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blueviolet;
-    margin-top: 20%;
-    font-size: 50px;
+    font-size: 96px;
+    font-weight: black;
 }
 p{
     text-align: center;
@@ -11,4 +11,37 @@ p{
     color: black;
     margin-top: 2%;
     font-size: 20px;
+}
+.hero{
+    background: #f9f7fe;
+    padding: 160px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.hero h3{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+}
+.hero p{
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    font-size: 25px;
+    font-weight: normal;
+    
+}
+.hero a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: grey 2px;
 }
