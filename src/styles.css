@@ -10,7 +10,7 @@ p{
     font-family: 'Poppins', sans-serif;
     color: black;
     margin-top: 2%;
-    font-size: 20px;
+    font-size: 15px;
 }
 .hero{
     background: #f9f7fe;
@@ -30,7 +30,8 @@ h2{
     font-family: 'Poppins', sans-serif;
     color: blueviolet;
     font-size: 64px;
-    font-weight: bold;
+    font-weight: black;
+    font-style: bold;
 }
 .hero p{
     font-family: 'Poppins', sans-serif;
@@ -39,6 +40,7 @@ h2{
     font-weight: normal;
     
 }
+
 .hero a{
     display: inline-block;
     margin-top: 15px;
@@ -71,3 +73,72 @@ p a{
     transition: background-color 0.3s ease;
     box-shadow: grey 2px;
 }
+.button{
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: grey 2px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.button:hover{
+    background-color: indigo;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.col{
+    background: #f9f7fe;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.col:hover{
+    background-color: #e0d7f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.rounded{
+    border-radius: 15px;
+}
+.rounded:hover{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+.p-2{
+    padding: 10px 10px;
+}
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 10px;
+    }
+    .hero h2 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .hero a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .col {
+        padding: 10px 10px;
+    }
+    .col img {
+        width: 100%;
+        height: auto;
+    }
+    container{
+        padding: 0 10px;
+    }
+    }
