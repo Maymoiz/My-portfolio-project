@@ -73,6 +73,7 @@ p a{
     transition: background-color 0.3s ease;
     box-shadow: grey 2px;
 }
+
 .button{
     margin: 15px;
     padding: 10px 20px;
@@ -141,4 +142,60 @@ p a{
     container{
         padding: 0 10px;
     }
+    }
+    .about-section container{
+        padding: 0 10px;
+        
+    }
+    .about-section{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .about-section h2{
+        font-family: 'Poppins', sans-serif;
+        color: blueviolet;
+        font-size: 48px;
+        font-weight: black;
+        font-style: bold;
+    }
+    .about-section p{
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 5px;
+        padding: 3px;
+    }
+    .about-section a{
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+        background-color: blueviolet;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        box-shadow: grey 2px;
+    }
+    .about-section a:hover{
+        background-color: indigo;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+    }
+    @media (max-width: 768px) {
+        .about-section {
+            padding: 40px 10px;
+        }
+        .about-section h2 {
+            font-size: 32px;
+        }
+        .about-section p {
+            font-size: 10px;
+        }
+        .about-section a {
+            font-size: 16px;
+            padding: 8px 16px;
+        }
     }
