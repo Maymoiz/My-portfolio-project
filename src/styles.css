@@ -236,3 +236,18 @@ nav a:hover{
 nav li.active a{
     color: red;
 }
+.contact-box .btn{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.contact-box{
+    margin: 15px;
+}
+.contact-box h4{
+    font-size: 48px;
+}
+ .text-muted{
+padding: 0;
+font-size: 20px;
+}
