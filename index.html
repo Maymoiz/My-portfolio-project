@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Moisha Ndlovu's Portfolio">
-    <title>Moisha Ndlovu</title>
+    <meta name="description" content="Moisha is a professional Front-end engineer based in South Africa.">
+    <title>Frontend Developer-Moisha Ndlovu</title>
     <link rel="stylesheet" href="src/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
@@ -16,31 +16,31 @@
 <body>
     <div class="logo-container fixed-top">
     <nav class="d-flex justify-content-between ">
-        <img src="images/shecodes logo.png"  alt="SheCodes.logo" class="logo d-none d-md-block">
-        <img src="images/small logo.jpg" class=" logo d-block d-md-none" alt="logo">
+        <img src="images/shecodes logo.png"  alt="Moisha's logo" class="logo d-none d-md-block" title="home page">
+        <img src="images/small logo.jpg" class=" logo d-block d-md-none" alt="Moisha's logo" title="home page">
         <ul>
             <li class="active">
-                <a href="index.html">Home Page</a>
+                <a href="index.html" title="home page">Home Page</a>
             </li>
             <li>
-                <a href="about.html">About</a>
+                <a href="about.html" title="about page">About</a>
             </li>
-            <li><a href="work.html">Work</a></li>
+            <li><a href="work.html" title="work page">Work</a></li>
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" title="contact page">Contact</a>
              </li>
         </ul>
     </nav>
     </div>
     <div class="hero">
-    <h3 class="text-center mb-3">👋 Hi I Am</h3><br>
+    <h3 class="text-center mb-3 mt-5">👋 Hi I Am</h3><br>
     <h1 class="mb-auto">Moisha Ndlovu</h1><br>
     <p class="text-center mb-3">Front-end developer based in South Africa</p><br>
-    <a href="about.html" class="btn btn-primary  mb-3 ">About Me</a>
-    
-    </div><br><br>
-    <a href="#end" class="btn btn-primary" title=" end">Explore More</a><br>
-     
+    <div class="d-flex  justify-content-center">
+    <a href="about.html" class="btn btn-primary  md-3 p-3 m-3">About Me</a>
+    <a href="contact.html" class="btn btn-primary md-3 p-3 m-3">Contact Me</a>
+    </div>
+    </div><br><br> 
     <h3 class="text-center m-5">Featured Projects</h3>
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
@@ -53,7 +53,9 @@
                  It's often consumed as a snack, breakfast item, or ingredient in various dishes. 
                  The specific nutritional profile can vary based on the type of yogurt and any added ingredients.
            </p>
-           <a href="#" class="button d-flex justify-content-center" title="Learn more">Launch App</a>
+        
+           <a href="work.html"  class="button d-flex justify-content-center" title="Learn more">Launch App</a>
+
          </div>
          <div class="col p-5 m-4 rounded d-none d-lg-block">
             <img src="images/yogurt.png" alt="Yogurt Project" class="img-fluid col-md-5 m-4 p-2" title="Yogurt Project" width="100%" height="100%"> 
@@ -71,7 +73,7 @@
                 Weather can change rapidly and is influenced by factors like geographical location, altitude, and proximity to bodies of water. 
                 Meteorologists study weather patterns to provide forecasts that help people plan their activities and stay safe during extreme weather events.
            </p>
-              <a href="#" class="button d-flex justify-content-center" title="Learn more">Launch App</a>
+              <a href="work.html" class="button d-flex justify-content-center" title="Learn more">Launch App</a>
          </div>
         <div class="row">
             <div class="col col-md-5 shadow-2 p-5 m-4  rounded">
@@ -82,7 +84,7 @@
                     Users can input specific criteria, such as cuisine type, meal type (breakfast, lunch, dinner), or health goals (low-carb, vegan), and the AI will provide recipe suggestions that match those requirements. 
                     This technology can help users discover new dishes and make meal planning easier.
             </p>
-                <a href="#" class="button d-flex justify-content-center" title="Learn more" id="end">Launch App</a>
+                <a href="work.html" class="button d-flex justify-content-center" title="Learn more" id="end">Launch App</a>
             </div>
             <div class="col d-none d-lg-block  p-2 m-4  rounded" id="end">
                 <img src="images/ai-recipe-generator.png" alt="Recipe Generator" class="img-fluid "  title="AI Recipe Generator">
@@ -90,25 +92,31 @@
         </div>
     </div>
 
-    <footer class="md-5 align-items-center">
-        <div class="contact-box d-flex justify-content-between">
-            <div>
-            <h4>Work Inquiry</h4>
-            <p class="text-muted">Let's Work Together!</p>
-            </div>
-            <div>
-            <a href="contact.html" class="btn btn-primary">Contact Me</a>
-            </div>
-        </div>
+    <footer class="md-5">
+        <div class="contact-box  ">
+            <div class="row">
+            <div class="d-flex justify-content-center md-5 " >
+                <div class="col-md-5 p-2 m-2">
+            <h4 class="text-center fs-3">Work Inquiry</h4>
+            <p class="text-muted text-center ">Let's Work Together!</p>
+                </div>
+                <div class="col-md-5 m-2 p-4">
         <p class="text-center text-decoration-none md-5 m-2 p-2  ">
-        <a href="emailto:moishamayndlovu@gmail.com" class="bg-light fs-2 text-dark">moishamayndlovu@gmail.com</a>
-    </p><br><br>
-<div class="d-flex justify-content-center ">
-        <a href="https://www.linkedin.com/in/moisha-ndlovu-39095b2a1/" class="md-5 fs-1 p-2 m-2"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://web.whatsapp.com/" class="md-5 fs-1 p-2 m-2"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.shecodes.io/graduates/165276-moisha-ndlovu" class="md-5 fs-1 p-2 m-2"><i class="fa-solid fa-graduation-cap"></i></a>
-    </div><br>
-    </footer>
+        <a href="emailto:moishamayndlovu@gmail.com" class="bg-light fs-2 text-dark" title="email Moisha">moishamayndlovu@gmail.com</a>
+        </p>
+                </div>
+            </div>
+        </div><br><br>
+<div class="d-flex justify-content-center m-4 ">
+        <a href="https://www.linkedin.com/in/moisha-ndlovu-39095b2a1/"title="Moisha's LinkedIn" class="md-5 fs-1 p-2 m-2"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Maymoiz" class="md-5 fs-1 p-2 m-2" title="Github Profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.shecodes.io/graduates/165276-moisha-ndlovu" class="md-5 fs-1 p-2 m-2" title="SheCodes Profile"><i class="fa-solid fa-graduation-cap"></i></a>
+        <a href="https://app.netlify.com/teams/maymoiz/projects" class="md-5 fs-1 p-2 m-2"title="netlify profile"><i class="fa-regular fa-circle-user"></i></a>
+    </div>
+        </div> 
+        <p class="text-center fs-5 text-dark">✌️This project was coded by Moisha Ndlovu, it is open-sourced on <a href="https://github.com/Maymoiz/My-portfolio-project" target="_blank" class="text-decoration-none bg-light text-dark">Github</a> and hosted on <a href="https://my-portfolio-projec.netlify.app/" target="_blank" class="text-decoration-none text-dark bg-light ">Netlify.</a></p>
+   </footer>
+    </div>
 </body>
 </html>
 

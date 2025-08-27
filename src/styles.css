@@ -14,7 +14,7 @@ p{
 }
 .hero{
     background: #f9f7fe;
-    padding: 160px 20px;
+    padding:60px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -97,7 +97,7 @@ p a{
 }
 .col{
     background: #f9f7fe;
-    padding: 20px 20px;
+    padding: 60px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -148,7 +148,7 @@ p a{
         
     }
     .about-section{
-        padding: 0 20px;
+        padding: 60px 20px;
         text-align: center;
     }
     .about-section h2{
@@ -200,15 +200,15 @@ p a{
         }
     }
 main{
-    padding: 2px;
+    padding: 60px;
     margin: 1px;
 }
 .logo{
     max-height: 40px;
 }
 .logo-container{
-    padding: 3px;
-    margin: 9px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 nav li{
     display: inline;
@@ -237,7 +237,7 @@ nav li.active a{
     color: red;
 }
 .contact-box .btn{
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     font-size: 20px;
 }
